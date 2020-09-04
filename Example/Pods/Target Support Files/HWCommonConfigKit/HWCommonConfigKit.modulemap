@@ -1,0 +1,6 @@
+framework module HWCommonConfigKit {
+  umbrella header "HWCommonConfigKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

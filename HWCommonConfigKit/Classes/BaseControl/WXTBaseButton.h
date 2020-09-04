@@ -1,0 +1,18 @@
+//
+//  WXTBaseButton.h
+//  
+//
+//  Created by ferrisxie on 2018/9/5.
+//  Copyright © 2018年 localOrganization. All rights reserved.
+//  基本按钮，带有点击态，从MttAlphaButton移植
+
+#import <UIKit/UIKit.h>
+
+@interface WXTBaseButton : UIButton
+@property (nonatomic, assign) CGFloat minAlpha;
+@property (nonatomic, assign) CGFloat horizontalMargin;
+@property (nonatomic, assign) CGFloat bottomMargin;
+
+-(void)setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state;
+
+@end
