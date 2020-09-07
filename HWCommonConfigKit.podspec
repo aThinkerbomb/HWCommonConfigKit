@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HWCommonConfigKit'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of HWCommonConfigKit.'
 
 # This description is used to generate tags and improve search results.
@@ -17,18 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '教师端基础配置类Kit'
 
-  s.homepage         = 'https://github.com/宇轩/HWCommonConfigKit'
+  s.homepage         = 'https://github.com/aThinkerbomb/HWCommonConfigKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '宇轩' => 'zyx466270590@outlook.com' }
-  s.source           = { :git => 'https://github.com/宇轩/HWCommonConfigKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/aThinkerbomb/HWCommonConfigKit.git', :tag => '1.0.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
+  s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'HWCommonConfigKit/Classes/**/*'
   

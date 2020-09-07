@@ -1002,38 +1002,6 @@
 			};
 			name = Release;
 		};
-		3C970D600F380D2964900F19555B1CE3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8DB22D1E5E39ECD235ED8916303FA22 /* HWCommonConfigKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HWCommonConfigKit/HWCommonConfigKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HWCommonConfigKit/HWCommonConfigKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HWCommonConfigKit/HWCommonConfigKit.modulemap";
-				PRODUCT_MODULE_NAME = HWCommonConfigKit;
-				PRODUCT_NAME = HWCommonConfigKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		3D426846C8C17FFBFF68A011204ECB88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B0D138917891C83BC770FD3374EE2B0 /* Pods-HWCommonConfigKit_Tests.release.xcconfig */;
@@ -1353,7 +1321,39 @@
 			};
 			name = Release;
 		};
-		EAF9D2CA5AB0A805EB9338289030F456 /* Debug */ = {
+		D8A91E3076DAA437CB3A0D4A1BBEAB20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DB22D1E5E39ECD235ED8916303FA22 /* HWCommonConfigKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HWCommonConfigKit/HWCommonConfigKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HWCommonConfigKit/HWCommonConfigKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HWCommonConfigKit/HWCommonConfigKit.modulemap";
+				PRODUCT_MODULE_NAME = HWCommonConfigKit;
+				PRODUCT_NAME = HWCommonConfigKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA14E25A9390345A02C377B386F27DE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 36CBF3B462E203802262EC9723A322BE /* HWCommonConfigKit.debug.xcconfig */;
 			buildSettings = {
@@ -1369,7 +1369,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HWCommonConfigKit/HWCommonConfigKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HWCommonConfigKit/HWCommonConfigKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HWCommonConfigKit/HWCommonConfigKit.modulemap";
 				PRODUCT_MODULE_NAME = HWCommonConfigKit;
@@ -1390,8 +1390,8 @@
 		035CB7AA7429FEB8250403A53622266C /* Build configuration list for PBXNativeTarget "HWCommonConfigKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAF9D2CA5AB0A805EB9338289030F456 /* Debug */,
-				3C970D600F380D2964900F19555B1CE3 /* Release */,
+				EA14E25A9390345A02C377B386F27DE0 /* Debug */,
+				D8A91E3076DAA437CB3A0D4A1BBEAB20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

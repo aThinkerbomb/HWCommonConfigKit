@@ -1,9 +1,9 @@
 {
   "name": "HWCommonConfigKit",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of HWCommonConfigKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/宇轩/HWCommonConfigKit",
+  "description": "教师端基础配置类Kit",
+  "homepage": "https://github.com/aThinkerbomb/HWCommonConfigKit.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "宇轩": "zyx466270590@outlook.com"
   },
   "source": {
-    "git": "https://github.com/宇轩/HWCommonConfigKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/aThinkerbomb/HWCommonConfigKit.git",
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "HWCommonConfigKit/Classes/**/*",
   "dependencies": {

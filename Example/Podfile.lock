@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - HWCommonConfigKit (0.1.0):
+  - HWCommonConfigKit (1.0.0):
     - Masonry (~> 1.1.0)
   - Masonry (1.1.0)
 
@@ -23,7 +23,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  HWCommonConfigKit: 0b349f8f571c99d4693d3a18c89a39de3580cf93
+  HWCommonConfigKit: b05644ccb967725c2a5a50b202e1273ae02ef1ef
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: a8c2f56676bc26bc0b2c9450e53ffafa6cd89f42
